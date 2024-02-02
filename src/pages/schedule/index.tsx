@@ -15,7 +15,7 @@ const SchedulePage = ({regions, dates}: IScheduleProps) => {
 
     return (
         <>
-            <DefaultPage isHome={true}>
+            <DefaultPage>
                 <BottomHeader section='Agendar consulta' description='Recupere seus pokémons em 5 segundos' />
                 {
                     isError === true ? <SuccessOrError isError={isError} /> : null
