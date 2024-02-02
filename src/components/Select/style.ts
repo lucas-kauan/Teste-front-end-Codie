@@ -33,7 +33,6 @@ export const DivLabelSelect = styled.div<ISelectPokemon>`
         color: var(--gray-color);
         background-color: transparent;
         cursor: ${(props: ISelectPokemon) => props.$isDisable ? 'no-drop' : 'pointer'};
-
     }
     
     
