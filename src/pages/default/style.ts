@@ -7,5 +7,6 @@ export const ContainerHome = styled.div`
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
+    position: relative;
 
 `
